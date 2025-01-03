@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../img/huellas.jpg);
+}
+
+.container-terms {
+  border-radius: 5px;
+  border: 3px solid #e5e7e9;
+  padding: 40px 120px;
+  background-color: white;
+  margin: 20px 150px;
+}
+
+.container-terms h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.container-terms h2 {
+  font-size: 1rem;
+  color: #dc143c;
+  margin: 10px 0;
+  font-weight: 900;
+}
+.container-terms p {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+  .container-terms {
+    padding: 40px 80px; /* Reduce el padding horizontal para pantallas medianas */
+    margin: 20px 100px; /* Reduce el margen horizontal para pantallas medianas */
+  }
+}
+
+@media (max-width: 992px) {
+  .container-terms {
+    padding: 40px 60px; /* Reduce el padding horizontal para pantallas más pequeñas */
+    margin: 20px 40px; /* Reduce el margen horizontal para pantallas más pequeñas */
+  }
+
+  .container-terms h1 {
+    font-size: 1.1rem; /* Reduce el tamaño de fuente del h1 para pantallas más pequeñas */
+  }
+
+  .container-terms h2 {
+    font-size: 0.9rem; /* Reduce el tamaño de fuente del h2 para pantallas más pequeñas */
+  }
+
+  .container-terms p {
+    font-size: 0.7rem; /* Reduce el tamaño de fuente de los párrafos para pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 768px) {
+  .container-terms {
+    padding: 30px 30px; /* Reduce el padding para pantallas móviles */
+    margin: 10px 20px; /* Reduce el margen para pantallas móviles */
+  }
+
+  .container-terms h1 {
+    font-size: 1rem; /* Ajusta el tamaño de fuente del h1 para pantallas móviles */
+  }
+
+  .container-terms h2 {
+    font-size: 0.8rem; /* Ajusta el tamaño de fuente del h2 para pantallas móviles */
+  }
+
+  .container-terms p {
+    font-size: 0.6rem; /* Ajusta el tamaño de fuente de los párrafos para pantallas móviles */
+  }
+}
