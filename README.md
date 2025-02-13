@@ -10,6 +10,7 @@ Patitas SOS Piura is a web platform designed to promote responsible pet adoption
 ![Image](https://github.com/user-attachments/assets/840171ab-d778-46ef-84f7-5c5d1dc55cdd)
 ![Image](https://github.com/user-attachments/assets/f542f1f5-0651-4602-b83a-f30c151a7e4a)
 ![Image](https://github.com/user-attachments/assets/e990f248-6688-401e-b318-e1ca670428d4)
+![Image](https://github.com/user-attachments/assets/ffcc8238-0417-4e15-a30c-7bd01fcde827)
 
 ## 🚀 Characteristics
 - Responsible Pet Adoption: Browse and manage pet profiles for adoption.
@@ -20,10 +21,10 @@ Patitas SOS Piura is a web platform designed to promote responsible pet adoption
   
 ## 🛠️ Technologies Used
 Front-end:
--HTML5
--CSS3
--Bootstrap 5
--JavaScript 
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript 
 Backend:
 - PHP
 - AJAX
